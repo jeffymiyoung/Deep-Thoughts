@@ -17,7 +17,7 @@ import Signup from './pages/Signup';
 
 // Establish Connect with Back-end Server and Front-end React -- changed from '/graphql' to '/http://localhost:3001/graphql'
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3001/graphql',
+  uri: '/graphql',
 });
 
 // setContext middleware
